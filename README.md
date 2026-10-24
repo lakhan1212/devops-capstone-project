@@ -1,16 +1,9 @@
-# Introduction to Git and GitHub
+# Continuous Integration and Continuous Delivery (CI/CD) Final Project
 
-## Simple Interest Calculator
+## Project Description
+This repository contains the final project for the CI/CD course on Coursera. It demonstrates the implementation of an automated pipeline using GitHub Actions for continuous integration (linting, unit testing) and Tekton / OpenShift Pipelines for continuous deployment.
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
-
-```
-Input:
-   p, principal amount
-   t, time period in years
-   r, annual rate of interest
-Output
-   simple interest = p*t*r
-```
-
-_© 2022 XYZ, Inc._
+## Repository Contents
+- `.github/workflows/workflow.yml`: GitHub Actions configuration for automated testing and linting.
+- `.tekton/tasks.yml`: Tekton task definitions for pipeline automation.
+- `README.md`: Project documentation and metadata.
