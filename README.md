@@ -1,9 +1,5 @@
-# Continuous Integration and Continuous Delivery (CI/CD) Final Project
+# Customer Accounts Microservice
 
-## Project Description
-This repository contains the final project for the CI/CD course on Coursera. It demonstrates the implementation of an automated pipeline using GitHub Actions for continuous integration (linting, unit testing) and Tekton / OpenShift Pipelines for continuous deployment.
+[![CI Build](https://github.com/lakhan1212/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/lakhan1212/devops-capstone-project/actions/workflows/ci-build.yaml)
 
-## Repository Contents
-- `.github/workflows/workflow.yml`: GitHub Actions configuration for automated testing and linting.
-- `.tekton/tasks.yml`: Tekton task definitions for pipeline automation.
-- `README.md`: Project documentation and metadata.
+This repository contains the RESTful Customer Accounts Microservice built with Flask, containerized with Docker, deployed to Kubernetes, and automated with CI/CD pipelines via GitHub Actions and Tekton.
